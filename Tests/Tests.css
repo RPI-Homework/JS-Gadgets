@@ -1,0 +1,31 @@
+table {
+	border-spacing: 0;
+	margin-bottom: 5ex;
+}
+tr:first-child td:first-child {
+	border-top: 2px solid black;
+}
+tr:first-child td.suiteColumn:first-child {
+	border-top: 0;
+	border-bottom: 2px solid black;
+}
+td {
+	border-bottom: 1px solid black;
+}
+tr:last-child td {
+	border-bottom: 0;
+}
+.suite {
+	font-weight: bold;
+}
+.result {
+	font-weight: bold;
+}
+.past.good {
+	font-weight: bold;
+	color: black;
+}
+.past.bad {
+	font-weight: bold;
+	color: red;
+}
