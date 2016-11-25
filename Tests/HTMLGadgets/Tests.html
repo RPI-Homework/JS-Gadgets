@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../Tests.css">
+	</head>
+	<body>
+		<script type="text/javascript" src="../TestSuite.js"></script>
+		<script type="text/javascript" src="../../HTMLGadgets/HTMLGadget.js"></script>
+		<script type="text/javascript" src="HTMLGadgetTests.js"></script>
+		<script type="text/javascript" src="../../HTMLGadgets/TextGadget.js"></script>
+		<script type="text/javascript" src="TextGadgetTests.js"></script>
+		
+		<script>
+		TestSuite.prototype.writeTestSuiteResults(HTMLGadgetTests, document.body);
+		TestSuite.prototype.writeTestSuiteResults(TextGadgetTests, document.body);
+		</script>
+	</body>
+</html>
