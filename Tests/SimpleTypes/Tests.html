@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../Tests.css">
+	</head>
+	<body>
+	<script type="text/javascript" src="../TestSuite.js"></script>
+	<script type="text/javascript" src="../../SimpleTypes/OrderedMap.js"></script>
+	<script type="text/javascript" src="OrderedMapPerformanceTests.js"></script>
+	<script type="text/javascript" src="OrderedMapTests.js"></script>
+	<script type="text/javascript" src="../../SimpleTypes/Tree.js"></script>
+	<script type="text/javascript" src="TreeTests.js"></script>
+	<script type="text/javascript" src="../../SimpleTypes/TreeMap.js"></script>
+	<script type="text/javascript" src="TreeMapTests.js"></script>
+	
+	<script>
+	TestSuite.prototype.writeTestSuiteResults(OrderedMapTests, document.body);
+	TestSuite.prototype.writeTestSuiteResults(OrderedMapPerformanceTests, document.body);
+	TestSuite.prototype.writeTestSuiteResults(TreeTests, document.body);
+	TestSuite.prototype.writeTestSuiteResults(TreeMapTests, document.body);
+	</script>
+	</body>
+</html>
